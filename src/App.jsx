@@ -1,7 +1,12 @@
 import Hero from './components/Hero'
+import Highlights from './components/Highlights'
+import Capabilities from './components/Capabilities'
 import Projects from './components/Projects'
+import Testimonials from './components/Testimonials'
 import Experience from './components/Experience'
+import Badges from './components/Badges'
 import Contact from './components/Contact'
+import CTA from './components/CTA'
 
 function App() {
   return (
@@ -13,8 +18,13 @@ function App() {
 
       {/* Sections */}
       <Hero />
+      <Highlights />
+      <Capabilities />
       <Projects />
+      <Testimonials />
       <Experience />
+      <Badges />
+      <CTA />
       <Contact />
 
       {/* Footer */}
